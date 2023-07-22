@@ -28,8 +28,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <link rel="stylesheet" href="responsiveAdmin.css">
+
+
 </head>
 <body>
+    <script src="../crearProducto.js"></script>
     <header class="header__container">
         <nav class="navegacion">
             <div class="container__th">
@@ -56,11 +59,11 @@
                     <h2 class="titulo__accesorios">Accesorios</h2>
                 </div>
                 <div class="container__agregarMas">
-                    <a href="/formCrearProducto/crear-producto.html" class="link__agregarMas">Agregar producto</a>
+                    <a href="../crear-producto.html" class="link__agregarMas">Agregar producto</a>
                 </div>
             </div>
 
-            <div class="container__padre-productos" data-accesorios>
+            <div class="container__padre-productos" data-accesorios id="accesorios">
 
                 <div class="container__productos">
                     <h2 class="titulo__producto">Brembos</h2>
@@ -297,6 +300,6 @@
         </div>
     </footer>
     <!-- <script src="../controllers/producto-controllers.js"></script> -->
-    <script src="/formCrearProducto/crearProducto.js"></script>
+
 </body>
 </html>

@@ -14,7 +14,7 @@ formularioCrear.addEventListener("submit", function(event){
 });
 
 //esta es la funcion de crear el nuevo elemento en el index.html
-const nuevoAccesorio = (nombre,imgeUrl,precio,descripcion,id)=>{
+const nuevoAccesorio = (nombre,imgeUrl,precio,descripcion)=>{
     const card = document.createElement("div");
     card.classList.add("container__productos");
 
@@ -31,29 +31,33 @@ const nuevoAccesorio = (nombre,imgeUrl,precio,descripcion,id)=>{
     </div>`;
 
     card.innerHTML = contenido;
-    card.dataset.id = id;
+    // card.dataset.id = id;
 
 
     // console.log(contenido);
-    return card;
+    // return card;
+    const accesorioContainer = document.getElementById("accesorios");
+    accesorioContainer.appendChild(card);
 };
 
-const accesorioContainer = document.querySelector("[data-accesorios]");
 
+// console.log(accesorioContainer)
 // obteniendo de mi archivo db.json
 
 const http = new XMLHttpRequest();
 
-http.open("GET", "http://localhost:3000/accesorios");
-http.send();
-
-http.onload = () =>{
-    const data = JSON.parse(http.response);
-    console.log(data);
-    data.forEach( (accesorio) =>{
-        const nuevoAccesorioJson = nuevoAccesorio(accesorio.nombre,accesorio.imgeUrl,accesorio.precio,accesorio.descripcion);
-        accesorioContainer.appendChild(nuevoAccesorioJson);
-    });
+http.onload = () => {
+    if (http.status === 200) {
+        const data = JSON.parse(http.response);
+        console.log(data);
+        const accesorioContainer = document.getElementById("accesorios");
+        data.forEach((accesorio) => {
+            const nuevoAccesorioJson = nuevoAccesorio(accesorio.nombre, accesorio.imageUrl, accesorio.precio, accesorio.descripcion);
+            accesorioContainer.appendChild(nuevoAccesorioJson);
+        });
+    } else {
+        console.error("Error al obtener los datos del servidor.");
+    }
 };
 
 //segun chat-gpt el problema esta en las url de los scripts, no lo hare ahora antes de mandar el repositorio a git porque estoy tarde, son las 1 AM en mi pais y debo levantarme a las 6 Am para alistarme a trabajar (Trabajo en un taller de mecanica como mecanico)
