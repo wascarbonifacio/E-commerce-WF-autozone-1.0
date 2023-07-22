@@ -1,0 +1,113 @@
+{
+    "accesorios": [
+        {
+            "nombre":"BrembosSSS",
+            "imageUrl": "./imagenes/1.jpeg",
+            "precio": "$1,200",
+            "descripcion":"Dale una vista diferente con los brembos negro mate de hierro!",
+            "id": 1
+        },
+        {
+            "nombre":"Luces led",
+            "imageUrl": "./imagenes/27.jpeg",
+            "precio": "$1,500",
+            "descripcion":"Juego de luces led 4 caras, 120W, 150,000 horas de utilidad",
+            "id": 2
+        },
+        {
+            "nombre":"Tira led",
+            "imageUrl": "./imagenes/15.jpeg",
+            "precio": "$1,400",
+            "descripcion":"Luces tipo led para la parte trasera del baul.",
+            "id": 3
+        },
+        {
+            "nombre":"Alfombras",
+            "imageUrl": "./imagenes/9.jpeg",
+            "precio": "$1,500",
+            "descripcion":"Paquete de alfombras para los 4 asientos.",
+            "id": 4
+        },
+        {
+            "nombre":"Tuercas",
+            "imageUrl": "./imagenes/11.jpeg",
+            "precio": "$1,000",
+            "descripcion":"Tuercas tipo mono,multi color, rojas vino y aniqueladas, paquete de 20 tuercas.",
+            "id": 5
+        }
+    ],
+    "repuestos": [
+        {
+            "nombre":"Bujias",
+            "imageUrl": "./imagenes/12.jpeg",
+            "precio": "$1,600",
+            "descripcion":"Bujias #16 de iridium, mejor consumo, mejor calidad.",
+            "id": 1
+        },
+        {
+            "nombre":"Coils",
+            "imageUrl": "./imagenes/24.jpeg",
+            "precio": "$1,500",
+            "descripcion":"Coils para Hyundai Sonata N20 2010-2016 marca Denzo.",
+            "id": 2
+        },
+        {
+            "nombre":"Coils",
+            "imageUrl": "./imagenes/25.jpeg",
+            "precio": "$1,500",
+            "descripcion":"Coils para Kia Rio 2014-2018, marca Denzo.",
+            "id": 3
+        },
+        {
+            "nombre":"Coils",
+            "imageUrl": "./imagenes/21.jpeg",
+            "precio": "$1,500",
+            "descripcion":"Coils para Kia K5 2012-2017, marca Denzo.",
+            "id": 4
+        },
+        {
+            "nombre":"Coils",
+            "imageUrl": "./imagenes/28.jpeg",
+            "precio": "$1,500",
+            "descripcion":"Coils para Hyundai Sonata Y20 2012-2016, marca Denzo.",
+            "id": 5
+        }
+    ],
+    "utilidad": [
+        {
+            "nombre":"Spray",
+            "imageUrl": "./imagenes/22.jpeg",
+            "precio": "$500",
+            "descripcion":"Spray de olor ( sabor a menta ), Sirve como amorol para los plasticos otorgandole brillo.",
+            "id": 1
+        },
+        {
+            "nombre":"Jalones",
+            "imageUrl": "./imagenes/16.jpeg",
+            "precio": "$1,000",
+            "descripcion":"Jalones de hierro de lujo y de utilidad.",
+            "id": 2
+        },
+        {
+            "nombre":"Soporte celular",
+            "imageUrl": "./imagenes/17.jpeg",
+            "precio": "$400",
+            "descripcion":"Soporte de celulares en vehiculos para mejor utilidad sin necesidad de agarrar el celular.",
+            "id": 3
+        },
+        {
+            "nombre":"Cabecitas",
+            "imageUrl": "./imagenes/18.jpeg",
+            "precio": "$500",
+            "descripcion":"Tapa valvulas de colores para darle otra apariencia a tus gomas.",
+            "id": 4
+        },
+        {
+            "nombre":"Jalones de plastico",
+            "imageUrl": "./imagenes/19.jpeg",
+            "precio": "$700",
+            "descripcion":"Jalones de plastico de lujo, sencilla instalacion.",
+            "id": 5
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="registrate.css">
+    <title>Registrate</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@100&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsiveRegistrar.css">
+</head>
+<body>
+    <main class="container">
+        <form action="" class="iniciar__seccion">
+            <h2 class="titulo">WF Autozone</h2>
+            <div class="iniciar__container">
+                <input type="email" placeholder="Correo electronico" class="ip__input" required data-tipo="correo">
+                <input type="text" placeholder="Nombre completo" class="ip__input" required>
+                <input type="text" placeholder="Nombre de usuario" class="ip__input" required>
+
+                <input type="password" placeholder="Contraseña" class="ip__input" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" title="Mínimo ocho caracteres, al menos una letra mayúscula, una letra minúscula, un número y un carácter especial.">
+
+                <input type="submit" value="Registrate" class="iniciar__btn">
+            </div>
+        </form>
+    </main>
+    <script src="validacion.js"></script>
+</body>
+</html>
+

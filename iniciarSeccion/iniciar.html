@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="iniciar.css">
+    <title>Iniciar seccion</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@100&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+
+
+</head>
+<body>
+    <main class="container">
+        <form action="" class="iniciar__seccion" id="form" data-formulario>
+            <h2 class="titulo">WF Autozone</h2>
+
+            <div class="container__input">
+                <input type="text" placeholder="Usuario o email" class="ip__input" id="usuarioEmail">
+                <span class="error" id="emailError"></span>
+            </div>
+
+            <div class="container__input">
+                <input type="password" placeholder="Contraseña" class="ip__input" id="passwordIp">
+                <span class="error" id="passwordError"></span>
+            </div>
+
+            <div class="container__input">
+                <input type="submit" value="iniciar" class="iniciar__link" id="iniciar">
+            </div>
+
+            <div class="registrar__container">
+                <p class="mensaje">¿No tienes una cuenta? <a href="/registrar/registrate.html" class="registrate__link">Registrate</a> </p>
+            </div>
+        </form>
+    </main>
+    <script src="validar.js"></script>
+</body>
+</html>

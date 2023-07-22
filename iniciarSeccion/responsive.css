@@ -1,0 +1,50 @@
+@media screen and (min-width: 260px){
+    .iniciar__seccion{
+        width: 300px;
+        height: auto;
+    }
+    .iniciar__seccion-error{
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .iniciar__seccion{
+        width: 35rem;
+        height: auto;
+    }
+    .iniciar__seccion-error{
+        width: 35rem;
+        height: auto;
+    }
+    .titulo{
+        font-size: 35px;
+    }
+    .ip__input{
+        height: 1.5rem;
+    }
+    .iniciar__link{
+        height: 2rem;
+    }
+    .registrar__container{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    .iniciar__seccion{
+        width: 35rem;
+        height: auto;
+    }
+    .iniciar__seccion-error{
+        width: 35rem;
+        height: auto;
+    }
+    .titulo{
+        font-size: 45px;
+    }
+    .ip__input{
+        height: 1.8rem;
+    }
+} 
